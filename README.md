@@ -1,5 +1,13 @@
 # Installation
 
+1) Clone or download repo.
+
+2) Run 'npm install' to install all required dependencies.
+
+3) Run 'npm start' to start the application. The application will start a webpack development server, which can be found at 'http://localhost:8080/'. If you have other stuff running at this port, you might need to close that. 
+
+4) Run 'npm test' to see the included tests.
+
 # Explanation
 
 In this project I have chosen to use a combination between React and Redux, since I find it a very simple, yet very powerful, approach to single page applications. 
