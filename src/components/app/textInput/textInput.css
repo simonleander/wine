@@ -1,0 +1,13 @@
+.textInput {
+
+	box-sizing: border-box;
+	width: 100%;
+	height: 60px;
+	margin: 0px 0px 20px 0px;
+	padding: 10px;
+	border: 2px solid #5EC3BB;
+	outline: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+
+}

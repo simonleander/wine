@@ -1,0 +1,66 @@
+.headerSearchList {
+
+	z-index: 1001;
+	background-color: white;
+	width: 100%;
+	border: 2px solid #5EC3BB;
+	border-top: none;
+	box-sizing: border-box;
+	margin-top: -22px;
+
+	li {
+
+		width: 100%;
+		border-bottom: 2px solid #5EC3BB;
+		font-family: 'Oswald', sans-serif;
+		text-decoration: none;
+		position: relative;
+		min-height: 80px;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+
+		&:last-child {
+
+			border-bottom: none;
+
+		}
+
+		a {
+
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			width: 100%;
+			height: 100%;
+
+			.thumb {
+
+				position: absolute;
+				width: 60px;
+				height: 60px;
+				top: calc(50% - 32px);
+				left: 20px;
+
+				img {
+
+					width: auto;
+					height: 60px
+				}
+
+			}
+
+			.title {
+
+				font-size: 18px;
+				line-height: 26px;
+				font-weight: 500;
+				letter-spacing: 1px;
+				padding-left: 80px;
+
+			}
+		}
+
+	}
+
+}

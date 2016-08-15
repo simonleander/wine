@@ -1,0 +1,14 @@
+.textarea {
+
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 200px;
+	margin: 0px 0px 16px 0px;
+	padding: 10px;
+	border: 2px solid #5EC3BB;
+	resize: none;
+	outline: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+
+}

@@ -1,0 +1,42 @@
+.wineCommentList {
+
+	width: 100%;
+	margin-bottom: 20px;
+
+	li {
+
+		padding: 10px 0px 10px 0px;
+		font-family: 'Open Sans', sans-serif;
+
+		.timestamp {
+
+			width: 100%;
+			background-color: #5EC3BB;
+			margin-bottom: 10px;
+			padding: 10px;
+			font-size: 16px;
+			box-sizing: border-box;
+			color: white;
+			position: relative;
+
+			i {
+
+				position: absolute;
+				top: 5px;
+				right: 10px;
+				font-size: 26px
+
+			}
+
+		}
+
+		.comment {
+
+			font-size: 18px;
+			margin-bottom: 10px;
+
+		}
+
+	}
+
+}

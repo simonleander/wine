@@ -1,0 +1,62 @@
+{
+  "name": "goldnumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "scripts": {
+    "test": "mocha --require ignore-styles './src/**/*.spec.js' --compilers js:babel-core/register",
+    "watch:test": "mocha --watch --require ignore-styles './src/**/*.spec.js' --compilers js:babel-core/register",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.12.0",
+    "classnames": "^2.2.5",
+    "fs": "0.0.2",
+    "mv": "^2.1.1",
+    "node-uuid": "^1.4.7",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.1",
+    "redux": "^3.5.2",
+    "redux-form": "^5.3.2",
+    "redux-ui": "0.0.15",
+    "reselect": "^2.5.3",
+    "validator": "^5.5.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "deep-freeze": "0.0.1",
+    "enzyme": "^2.4.1",
+    "ignore-styles": "^1.2.0",
+    "mocha": "^3.0.1",
+    "node-sass": "^3.6.0",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
+    "react-hot-loader": "^1.3.0",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

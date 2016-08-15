@@ -1,0 +1,73 @@
+ul {
+
+	margin-bottom: 20px;
+
+}
+
+.wine {
+
+	font-family: 'Oswald', sans-serif;
+	padding: 20px 40px 20px 80px;
+	border-bottom: 2px solid #5EC3BB;
+	position: relative;
+	min-height: 120px;
+
+	&:first-child {
+
+		border-top: 2px solid #5EC3BB;
+	
+	}
+
+	.link {
+
+		display: block;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+
+		.itemText {
+
+			width: 100%;
+			height: 100%;
+
+		}
+
+		.thumb {
+
+			width: 80px;
+			height: 120px;
+			position: absolute;
+			top: calc(50% - 60px);
+			left: 0px;
+
+		}
+
+		.title {
+
+			font-size: 20px;
+			line-height: 26px;
+			text-transform: uppercase;
+			font-weight: 700;
+			letter-spacing: 2px;
+			margin-bottom: 8px;
+			color: black;
+
+		}
+
+		.location, .year {
+
+			font-size: 18px;
+			line-height: 26px;
+			font-weight: 500;
+			letter-spacing: 1px;
+			color: black;
+			margin-bottom: 8px;
+
+		}
+  
+	}
+
+}

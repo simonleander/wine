@@ -1,0 +1,36 @@
+.selectWrapper {
+
+	position: relative;
+
+	.selectInput {
+
+		width: 100%;
+		height: 60px;
+		margin-bottom: 20px;
+		border: 2px solid #5EC3BB;
+		background-color: white;
+		border-radius: 0px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		padding: 10px;
+		outline: 0;
+		appearance: none;
+  
+	}
+
+	.arrow {
+
+		height: 55px;
+		width: 55px;
+		position: absolute;
+		top: 2px;
+		right: 2px;
+		font-size: 30px;
+		text-align: center;
+		line-height: 60px;
+		pointer-events: none;
+		background-color: white;
+
+	}
+
+}

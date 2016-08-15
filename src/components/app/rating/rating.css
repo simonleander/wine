@@ -1,0 +1,35 @@
+.rating {
+
+	position: relative;
+	height: 26px;
+
+	i {
+
+		margin-right: 8px;
+		font-size: 26px;
+		cursor: pointer;
+
+	}
+
+	.stars, .maxStarts {
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: white;
+
+	}
+	
+	.maxStars {
+
+		color: black;
+
+	}
+
+	.green {
+
+		color: #5EC3BB;
+
+	}
+
+}

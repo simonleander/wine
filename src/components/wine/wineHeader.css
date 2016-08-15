@@ -1,0 +1,30 @@
+.wineHeader {
+
+	padding: 20px;
+	margin: 0px -20px 30px -20px;
+	box-sizing: border-box;
+	background-color: #5EC3BB;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+
+	.title {
+
+		font-size: 36px;
+		letter-spacing: 2px;
+		font-weight: 700;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+
+	}
+
+	.location, .year {
+
+		font-size: 20px;
+		line-height: 22px;
+		letter-spacing: 2px;
+		font-weight: 500;
+		margin-bottom: 10px;
+
+	}
+
+}
